@@ -1,0 +1,57 @@
+body {
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+}
+
+header {
+	height: 200px;
+	background-color: rgba(0,0,0,0.5);
+}
+	header div	{
+		float:left;
+	}
+#container {
+	width:1200px;
+}
+#album-image-container {
+	display:block;
+	width:200px;
+}
+#album-cover-image {
+	padding:25px;
+}
+#nav-container {
+	position:relative;
+	width:1000px;
+	height:inherit;
+}
+	#nav-container	nav {
+		position: absolute;
+		bottom: 80px;
+		opacity: 1;
+	}
+	#nav-container	nav a {
+		color:white;
+		padding:0 20px;
+		font-size:24px;
+	}
+	#nav-container nav li {
+		display:block;
+		float:left;
+	}
+	#nav-container nav ul, #nav-container nav li {
+		list-style: none;
+	}
+
+.selected {
+	font-weight: bold;
+}
+
+#main-content-area {
+	margin-top:25px;
+	width:1200px;
+	height:400px;
+	background-color: rgba(0,0,0,0.5);
+}
