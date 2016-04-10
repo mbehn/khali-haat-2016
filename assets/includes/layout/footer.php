@@ -1,3 +1,4 @@
+</body>
 </html>
 <?php 
 if (isset($db)) {

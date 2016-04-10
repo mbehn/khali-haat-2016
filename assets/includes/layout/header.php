@@ -9,7 +9,14 @@
 						$navItems = getNavItems();
 						while($navItem = mysqli_fetch_assoc($navItems)) { ?>
 							<li>
-								<a href="index.php?page=<?php echo $navItem["PageName"]; ?>" id="<?php echo $navItem["PageName"] ?>">
+								<a href="index.php?page=<?php echo $navItem["PageName"]; ?>" id="<?php echo $navItem["PageName"] ?>"
+								<?php 
+								if ($navItem["PageName"] == $current_page_name) {
+									echo " class=\"selected\"";
+								};
+								?>	
+
+								>
 									<?php echo $navItem["PageTitle"] ?>
 								</a>
 							</li>
