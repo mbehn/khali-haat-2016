@@ -15,13 +15,13 @@ footer {height: 35px;position:relative;}
 	#nav-container .selected {text-decoration:underline;}
 
 #main-content-area {margin: 25px 0 5px 0;width:1200px;position:relative;}
-#content {padding:30px;color:white;width:40%;}
+#content {padding:30px;color:white;width:50%;}
 #copyright {color:white; position:absolute; left:42%;top:20%;}
 #contact-form {margin-top:15px;}
 	#contact-form tr {height:40px;}
 	#contact-form input[type="text"], #contact-form input[type="email"] {height:20px;}
 	#contact-form input[type="text"], #contact-form input[type="email"], #contact-form input[type="texarea"], textarea {border-radius: 3px;min-width: 230px }
-#side-image {margin-left:10%;padding-top:30px;position:absolute;right:20%;}
+#side-image {margin-left:10%;padding-top:30px;position:absolute;right:15%;}
 	#side-image img {max-width: 400px}
 #side-image h2 {color:white;}
 #side-image, #content {display:inline-block;}
