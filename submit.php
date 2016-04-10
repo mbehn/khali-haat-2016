@@ -5,6 +5,7 @@ if (isset($_GET["page"])) {
 	$current_page_name = "";
 }
 
+
 require_once("assets/includes/dbconnection.php");
 require_once("assets/includes/functions.php");
 ?>
@@ -31,6 +32,12 @@ require_once("assets/includes/functions.php");
 				include("assets/includes/layout/contact-form.php");
 			}
 		?>
+		<?php 
+			if (count($_POST) > 0) { ?>
+				<pre>
+					<?php print_r($_POST) ?>
+				</pre>
+		<?php } ?>
 	</div>	
 </div>
 <footer>

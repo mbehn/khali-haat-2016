@@ -12,11 +12,11 @@
 	</title>
 	<meta name="description" content="<?php echo $current_page["PageDescription"]; ?>" />
 	<link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
-	<link rel="ico" href="assets/images/album.jpg">
+	<link rel="icon" href="assets/images/album.jpg">
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
 	<script type="text/javascript" src="assets/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/jquery/sizzle/dist/sizzle.min.js"></script>
 	<script type="text/javascript" src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
-	<link rel="ico" href="assets/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylsheet" type="text/css" href="assets/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>

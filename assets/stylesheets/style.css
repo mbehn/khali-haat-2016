@@ -1,18 +1,19 @@
 body { background-image: url('../images/background.jpg'); background-repeat: no-repeat; background-size: inherit; background-position: fixed;font-family: 'Signika', sans-serif;}
 header, footer, #main-content-area {background-color: rgba(0,0,0,0.75);}
 header {height: 200px;}
-footer {height: 50px;}
+footer {height: 35px;position:relative;}
 	header div	{float:left;}
 #container {width:1200px; margin:0 auto;}
 #album-image-container {width:200px;}
 #album-cover-image {padding:25px;}
 #nav-container {position:relative;width:1000px;height:inherit;}
 	#nav-container	nav {position: absolute;bottom: 80px;opacity: 1;}
-	#nav-container	nav a {color:white;padding-right:20px;font-size:24px;text-decoration:none;letter-spacing: 1px;transition:color, .3s;}
+	#nav-container	nav a {color:white;padding-right:20px;font-size:24px;text-decoration:none;letter-spacing: 1px;transition:all .3s;}
 	#nav-container	nav a:hover {text-decoration:underline;}
 	#nav-container nav li {display:block;float:left;}
 	#nav-container nav ul, #nav-container nav li {list-style: none;}
 	#nav-container .selected {text-decoration:underline;font-weight:bold;}
 
-#main-content-area {margin: 25px 0;;width:1200px;height:400px;}
-#content {padding:20px;color:white;}
+#main-content-area {margin: 25px 0;width:1200px;}
+#content {padding:30px;color:white;width:50%;}
+#copyright {color:white; position:absolute; left:42%;top:20%;}

@@ -1,6 +1,6 @@
 	<header>
 		<div id="album-image-container">
-			<a href="index.php"><img id="album-cover-image" src="assets/images/album.jpg"></a>
+			<a href="index.php?page=home"><img id="album-cover-image" src="assets/images/album.jpg"></a>
 		</div>		
 		<div id="nav-container">
 			<nav>
