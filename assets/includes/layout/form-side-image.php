@@ -1,3 +1,3 @@
 <div id="side-image">
-	<h2>Test</h2>
+	<img src="assets/images/album-2.jpg">
 </div>
