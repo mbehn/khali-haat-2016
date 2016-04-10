@@ -3,6 +3,7 @@ header, footer, #main-content-area {background-color: rgba(0,0,0,0.75);}
 header {height: 200px;}
 footer {height: 35px;position:relative;}
 	header div	{float:left;}
+a:visited {color:lightblue;}
 #container {width:1200px; margin:0 auto;}
 #album-image-container {width:200px;}
 #album-cover-image {padding:25px;}
@@ -21,6 +22,7 @@ footer {height: 35px;position:relative;}
 	#contact-form tr {height:40px;}
 	#contact-form input[type="text"], #contact-form input[type="email"] {height:20px;}
 	#contact-form input[type="text"], #contact-form input[type="email"], #contact-form input[type="texarea"], textarea {border-radius: 3px;min-width: 230px }
+	#contact-form button {width:35%;height:25px;}
 #side-image {margin-left:10%;padding-top:30px;position:absolute;right:15%;}
 	#side-image img {max-width: 400px}
 #side-image h2 {color:white;}

@@ -17,7 +17,7 @@
 				<td><input name="newsletter" id="newsletter" type="checkbox" class="form-control" rows="10"></td>
 			</tr>
 			<tr>
-				<td colspan="2"><button class="form-control btn btn-primary" action="submit" name="submit" value="submit">Submit</button></td>
+				<td colspan="2"><button class="form-control btn btn-primary" action="submit" name="submit" value="submit">Do It!</button></td>
 			</tr>
 	</table>
 </form>
