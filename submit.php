@@ -19,6 +19,16 @@ require_once("assets/includes/functions.php");
 
 <div id="main-content-area">
 	<div id="content">
+	<?php 
+		if (!isset($_POST["form-email-address"])) {
+	?>
+	<h1>Please <a href="index.php?page=contact">go back</a> and enter and fill our our form!</h1>	
+	<?php } ?>	
+	<?php 
+		if (isset($_POST["form-email-address"])) {
+	?>
+	<h1>Thanks for reaching out!</h1>	
+	<?php } ?>
 		<?php 
 			if (isset($current_page["PageTitle"])) { ?>
 				<h1><?php echo $current_page["PageTitle"]; ?></h1>

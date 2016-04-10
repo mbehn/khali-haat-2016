@@ -31,7 +31,13 @@ require_once("assets/includes/functions.php");
 				include("assets/includes/layout/contact-form.php");
 			}
 		?>
-	</div>	
+	</div>
+	<?php 
+		if ($current_page_name == 'contact') {
+				include("assets/includes/layout/form-side-image.php");
+			}
+	?>	
+
 </div>
 <footer>
 	<div id="copyright">

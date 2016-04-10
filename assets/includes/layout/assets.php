@@ -19,4 +19,4 @@
 	<script type="text/javascript" src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
 	<link rel="stylsheet" type="text/css" href="assets/bootstrap/dist/css/bootstrap.min.css">
 </head>
-<body>
+<body id="<?php echo $current_page["PageName"]; ?>">

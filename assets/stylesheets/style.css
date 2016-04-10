@@ -12,8 +12,13 @@ footer {height: 35px;position:relative;}
 	#nav-container	nav a:hover {text-decoration:underline;}
 	#nav-container nav li {display:block;float:left;}
 	#nav-container nav ul, #nav-container nav li {list-style: none;}
-	#nav-container .selected {text-decoration:underline;font-weight:bold;}
+	#nav-container .selected {text-decoration:underline;}
 
-#main-content-area {margin: 25px 0;width:1200px;}
-#content {padding:30px;color:white;width:50%;}
+#main-content-area {margin: 25px 0 5px 0;width:1200px;}
+#content {padding:30px;color:white;width:40%;}
 #copyright {color:white; position:absolute; left:42%;top:20%;}
+#contact-form {margin-top:15px;}
+	#contact-form tr {height:40px;}
+	#contact-form input[type="text"], #contact-form input[type="email"] {height:20px;}
+	#contact-form input[type="text"], #contact-form input[type="email"], #contact-form input[type="texarea"], textarea {border-radius: 3px;min-width: 200px }
+#side-image {width:50%;}
