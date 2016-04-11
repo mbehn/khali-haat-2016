@@ -1,13 +1,14 @@
+a {color:lightblue;}
 body { background-image: url('../images/background.jpg'); background-repeat: no-repeat; background-size: inherit; background-position: fixed;font-family: 'Signika', sans-serif;}
 header, footer, #main-content-area {background-color: rgba(0,0,0,0.75);}
-header {height: 200px;}
+header {height: 200px;width:inherit;}
 footer {height: 35px;position:relative;}
 	header div	{float:left;}
 a:visited {color:lightblue;}
-#container {width:1200px; margin:0 auto;}
-#album-image-container {width:200px;}
+#container {width:1100px; margin:0 auto;}
+#album-image-container {width:15%;}
 #album-cover-image {padding:25px;}
-#nav-container {position:relative;width:1000px;height:inherit;}
+#nav-container {position:relative;width:85%;height:inherit;}
 	#nav-container	nav {position: absolute;bottom: 80px;opacity: 1;}
 	#nav-container	nav a {color:white;padding-right:20px;font-size:24px;text-decoration:none;letter-spacing: 1px;transition:all .3s;}
 	#nav-container	nav a:hover {text-decoration:underline;}
@@ -15,8 +16,8 @@ a:visited {color:lightblue;}
 	#nav-container nav ul, #nav-container nav li {list-style: none;}
 	#nav-container .selected {text-decoration:underline;}
 
-#main-content-area {margin: 25px 0 5px 0;width:1200px;position:relative;}
-#content {padding:30px;color:white;width:50%;}
+#main-content-area {margin: 25px 0 5px 0;width:inherit;position:relative;}
+#content {padding:30px;color:white;width:60%;}
 #copyright {color:white; position:absolute; left:42%;top:20%;}
 #contact-form {margin-top:15px;}
 	#contact-form tr {height:40px;}
@@ -27,3 +28,5 @@ a:visited {color:lightblue;}
 	#side-image img {max-width: 400px}
 #side-image h2 {color:white;}
 #side-image, #content {display:inline-block;}
+#login-form {padding:0 0 25px 25px;}
+	#login-form label, #login-form td {color:white;}

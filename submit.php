@@ -4,10 +4,46 @@ if (isset($_GET["page"])) {
 } else {
 	$current_page_name = "";
 }
-
-
+if (isset($_POST["form-email-address"])) {
+	$email_address = $_POST["form-email-address"];
+	$encrypted_email_address = md5($email_address);
+	$display_name = $_POST["form-email-address"];
+}
+else {
+	$email_address = null;
+}
+if (isset($_POST["name"])) {
+	$name = $_POST["name"];
+	$display_name = $_POST["name"];
+} else {
+	$name = null;
+}
+if (isset($_POST["message"])) {
+	$message = $_POST["message"];
+}
+else {
+	$message = "";
+}
+if (isset($_POST["newsletter"])) {
+	$newsletter = $_POST["newsletter"];
+}
+else {
+	$newsletter = "";
+}
 require_once("assets/includes/dbconnection.php");
 require_once("assets/includes/functions.php");
+?>
+
+<?php 
+	if (isset($_POST["submit"]) && $_POST["submit"] == "submit") {
+		global $db;
+		$date = DATE_ATOM;
+		$query = "INSERT INTO `khalihaat`.
+		`form_submissions` (`Id`, `Name`, `Email`, `EncryptedEmail`, `Message`, `Newsletter`) 
+		VALUES (NULL, '$name', '$email_address', '$encrypted_email_address', '$message', '$newsletter')";
+		mysqli_query($db, $query);
+	}
+
 ?>
 <?php include("assets/includes/layout/assets.php") ?>
 
@@ -27,7 +63,7 @@ require_once("assets/includes/functions.php");
 	<?php 
 		if (isset($_POST["form-email-address"])) {
 	?>
-	<h1>Thanks for reaching out!</h1>	
+	<h1>Thanks for reaching out <?php echo $display_name; ?>!</h1>	
 	<?php } ?>
 		<?php 
 			if (isset($current_page["PageTitle"])) { ?>
@@ -42,12 +78,6 @@ require_once("assets/includes/functions.php");
 				include("assets/includes/layout/contact-form.php");
 			}
 		?>
-		<?php 
-			if (count($_POST) > 0) { ?>
-				<pre>
-					<?php print_r($_POST) ?>
-				</pre>
-		<?php } ?>
 	</div>	
 </div>
 <footer>

@@ -19,8 +19,8 @@
 								>
 									<?php echo $navItem["PageTitle"] ?>
 								</a>
-							</li>
-						<?php } ?>
+							</li>							
+						<?php } ?>							
 				</ul>
 			
 			</nav>

@@ -2,7 +2,7 @@
 	<table>
 			<tr>
 				<td><label>name</label></td>
-				<td><input name="form-name" id="form-name" type="text" class="form-control"></td>
+				<td><input name="name" id="form-name" type="text" class="form-control"></td>
 			</tr>
 			<tr>
 				<td><label>email address*</label></td>
@@ -14,10 +14,10 @@
 			</tr>
 			<tr>
 				<td>sign up for our newsletter</td>
-				<td><input name="newsletter" id="newsletter" type="checkbox" class="form-control" rows="10"></td>
+				<td><input name="newsletter" id="newsletter" type="checkbox" class="form-control" value="1"></td>
 			</tr>
 			<tr>
-				<td colspan="2"><button class="form-control btn btn-primary" action="submit" name="submit" value="submit">Do It!</button></td>
+				<td colspan="2"><button class="form-control btn btn-primary" action="submit" name="submit" value="submit">submit</button></td>
 			</tr>
 	</table>
 </form>

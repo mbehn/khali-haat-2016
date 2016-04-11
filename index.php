@@ -31,12 +31,23 @@ require_once("assets/includes/functions.php");
 				include("assets/includes/layout/contact-form.php");
 			}
 		?>
+		<?php 
+		if ($current_page_name == 'login') {
+				include("assets/includes/layout/login-form.php");
+			}
+		?>
+		<?php 
+			if ($current_page_name == 'manage_users') {
+					include("assets/includes/layout/manage_users.php");
+				}
+		?>
 	</div>
 	<?php 
 		if ($current_page_name == 'contact') {
 				include("assets/includes/layout/form-side-image.php");
 			}
-	?>	
+	?>
+			
 
 </div>
 <footer>

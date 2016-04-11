@@ -1,3 +1,4 @@
+<?php include("assets/includes/scripts.php") ?>
 </body>
 </html>
 <?php 
