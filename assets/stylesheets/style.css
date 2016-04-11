@@ -24,7 +24,7 @@ a:visited {color:lightblue;}
 	#contact-form input[type="text"], #contact-form input[type="email"] {height:20px;}
 	#contact-form input[type="text"], #contact-form input[type="email"], #contact-form input[type="texarea"], textarea {border-radius: 3px;min-width: 230px }
 	#contact-form button {width:35%;height:25px;}
-#side-image {margin-left:10%;padding-top:30px;position:absolute;right:15%;}
+#side-image {padding-top:30px;position:absolute;right:12%;}
 	#side-image img {max-width: 400px}
 #side-image h2 {color:white;}
 #side-image, #content {display:inline-block;}
