@@ -1,4 +1,7 @@
-<?php 
+<?php
+// if (!isset($_POST["page"])) {
+// 	header("Location: "."http://localhost/khalihaat/index.php?page=home");
+// } 
 if (isset($_GET["page"])) {
 	$current_page_name = $_GET["page"];
 } else {
@@ -24,7 +27,7 @@ require_once("assets/includes/functions.php");
 		<?php } ?>
 		<?php 
 			if (isset($current_page["PageContent"])) { ?>
-				<?php echo $current_page["PageContent"]; ?>
+				<?php echo str_replace("\n","</br>",$current_page["PageContent"]); ?>
 		<?php } ?>
 		<?php 
 			if ($current_page_name == 'contact') {
@@ -39,6 +42,26 @@ require_once("assets/includes/functions.php");
 		<?php 
 			if ($current_page_name == 'manage_users') {
 					include("assets/includes/layout/manage_users.php");
+				}
+		?>
+		<?php 
+			if ($current_page_name == 'manage_pages') {
+					include("assets/includes/layout/manage_pages.php");
+				}
+		?>
+		<?php 
+			if ($current_page_name == 'create_page') {
+					include("assets/includes/layout/create_page.php");
+				}
+		?>
+		<?php 
+			if ($current_page_name == 'create_new_admin') {
+					include("assets/includes/layout/create_new_admin.php");
+				}
+		?>		
+		<?php 
+			if ($current_page_name == 'image_gallery') {
+					include("assets/includes/layout/image_gallery.php");
 				}
 		?>
 	</div>
