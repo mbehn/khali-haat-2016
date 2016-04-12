@@ -1,6 +1,6 @@
 <?php 
 $i = 1;
-$image_array_legth = 9;
+$image_array_legth = 10;
 ?>
 <div id="image-gallery-outer-container">
 	<div id="image-gallery-container">

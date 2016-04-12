@@ -40,6 +40,11 @@ require_once("assets/includes/functions.php");
 			}
 		?>
 		<?php 
+			if ($current_page_name == 'music') {
+					include("assets/includes/layout/music.php");
+				}
+		?>
+		<?php 
 			if ($current_page_name == 'manage_users') {
 					include("assets/includes/layout/manage_users.php");
 				}

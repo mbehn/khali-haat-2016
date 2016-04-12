@@ -1,5 +1,5 @@
 a {color:lightblue;}
-body { background-image: url('../images/background.jpg'); background-repeat: no-repeat; background-size: inherit; background-position: fixed;font-family: 'Signika', sans-serif;}
+body { background-image: url('../images/background.jpg'); background-repeat: no-repeat; background-size: cover; background-position: fixed;font-family: 'Signika', sans-serif;}
 header, footer, #main-content-area {background-color: rgba(0,0,0,0.75);}
 header {height: 200px;width:inherit;}
 footer {height: 35px;position:relative;}
@@ -32,8 +32,10 @@ a:visited {color:lightblue;}
 	#login-form label, #login-form td {color:white;}
 #create-page-form input[type="text"], #contact-form input[type="email"] {height:20px;}
 #create-page-form input[type="text"], #contact-form input[type="email"], #contact-form input[type="texarea"], textarea {border-radius: 3px;min-width: 230px }
-body#image_gallery #content {width:100%;}
+body#image_gallery #content, body#music #content {width:100%;}
 #image-gallery-container {padding:15px;position:relative;}
-.image_thumbnail_container {width:30%;margin:10px;float:left;}
-.inner-image-container img {max-width:100%;max-height:300px; transition: box-shadow .1s;}
+.image_thumbnail_container, body#music .section {width:30%;margin:10px;float:left;}
+.inner-image-container img {max-width:100%;max-height:300px;}
 .inner-image-container img:hover {box-shadow: 0px 0px 25px 2px;}
+body#music .section a {padding:15px 5px;display:block;}
+body#music .section img {max-width: 100%}
