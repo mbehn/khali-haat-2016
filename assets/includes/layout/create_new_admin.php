@@ -46,7 +46,7 @@
 			</tr>
 			<tr>
 				<td></td>
-				<td><button action="submit" name="submit">Submit</button></td>
+				<td><button action="submit" name="submit" class="btn btn-default">Submit</button></td>
 			</tr>
 			<tr>
 				<td></td>

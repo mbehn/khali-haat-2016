@@ -69,6 +69,11 @@ require_once("assets/includes/functions.php");
 					include("assets/includes/layout/image_gallery.php");
 				}
 		?>
+		<?php 
+			if ($current_page_name == 'create_photo_album') {
+					include("assets/includes/layout/create_photo_album.php");
+				}
+		?>
 	</div>
 	<?php 
 		if ($current_page_name == 'contact') {

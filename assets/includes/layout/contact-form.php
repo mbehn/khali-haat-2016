@@ -1,4 +1,4 @@
-<form method="POST" id="contact-form" class="form form-control" action="submit.php">
+<form method="POST" id="contact-form" action="submit.php">
 	<table>
 			<tr>
 				<td><label>name</label></td>
@@ -17,7 +17,7 @@
 				<td><input name="newsletter" id="newsletter" type="checkbox" class="form-control" value="1"></td>
 			</tr>
 			<tr>
-				<td colspan="2"><button class="form-control btn btn-primary" action="submit" name="submit" value="submit">submit</button></td>
+				<td colspan="2"><button class="form-control btn btn-default" action="submit" name="submit">submit</button></td>
 			</tr>
 	</table>
 </form>
