@@ -4,6 +4,7 @@ header, footer, #main-content-area {background-color: rgba(0,0,0,0.6);position:r
 header {height: 200px;width:inherit;}
 footer {height: 35px;position:relative;}
 	header div	{float:left;}
+th {text-align: left;text-decoration: underline}
 a:visited {color:lightblue;}
 #container {width:1100px; margin:0 auto;}
 #album-image-container {width:15%;}
@@ -17,7 +18,7 @@ a:visited {color:lightblue;}
 	#nav-container .selected {text-decoration:underline;color:lightblue;}
 
 #main-content-area {margin: 25px 0 5px 0;width:inherit;position:relative;}
-#content {padding:10px 30px 20px 30px;color:white;width:60%;}
+#content {padding:10px 30px 20px 30px;color:white;}
 #copyright {color:white; position:absolute; left:42%;top:20%;}
 #contact-form {margin-top:15px;}
 	#contact-form tr {height:40px;}
@@ -40,3 +41,8 @@ body#music .section {width:30%;margin:10px;float:left;}
 body#music .section a {padding:15px 5px;display:block;}
 body#music .section img {max-width: 100%}
 input#create-photo-album {font-color:black;}
+#image-gallery-modal {position: absolute;left: 125px; top:15px; background-color:rgba(0,0,0,0.7);display:none;}
+#image-gallery-modal img {max-width:800px;padding:5px 20px 20px 20px;}
+#selected-image-header {padding:10px 10px 0 10px;}
+#close-modal {font-size:26px;right:15px;position:absolute}
+#close-modal:hover {cursor:pointer;}
