@@ -6,11 +6,11 @@ footer {height: 35px;position:relative;}
 	header div	{float:left;}
 th {text-align: left;text-decoration: underline}
 a:visited {color:lightblue;}
-#container {width:1100px; margin:0 auto;}
+#container {width:1200px; margin:0 auto;}
 #album-image-container {width:15%;}
 #album-cover-image {padding:25px;}
-#nav-container {position:absolute;width:100%;height:inherit;}
-	#nav-container	nav {position: absolute;bottom: 80px;left:150px;opacity: 1;}
+#nav-container {position:absolute;width:1025px;height:inherit;right:0;}
+	#nav-container	nav {position: absolute;bottom: 80px;opacity: 1;}
 	#nav-container	nav a {color:white;padding-right:20px;font-size:24px;text-decoration:none;letter-spacing: 1px;transition:all .3s;}
 	#nav-container	nav a:hover {text-decoration:underline;}
 	#nav-container nav li {display:block;float:left;}
@@ -37,12 +37,17 @@ body#image_gallery #content, body#music #content {width:100%;}
 .image_thumbnail_container{width:17%;margin:10px;float:left;}
 body#music .section {width:30%;margin:10px;float:left;}
 .inner-image-container img {max-width:100%;max-height:300px;}
-.inner-image-container img:hover {box-shadow: 0px 0px 25px 2px;}
+.inner-image-container img:hover {box-shadow: 0px 0px 25px 2px;cursor:pointer}
 body#music .section a {padding:15px 5px;display:block;}
 body#music .section img {max-width: 100%}
 input#create-photo-album {font-color:black;}
-#image-gallery-modal {position: absolute;left: 125px; top:15px; background-color:rgba(0,0,0,0.7);display:none;}
-#image-gallery-modal img {max-width:800px;padding:5px 20px 20px 20px;}
-#selected-image-header {padding:10px 10px 0 10px;}
-#close-modal {font-size:26px;right:15px;position:absolute}
-#close-modal:hover {cursor:pointer;}
+#image-gallery-modal {width:1100px;position:absolute;left:50px; top:15px; background-color:rgba(0,0,0,0.85);display:none;border-radius: 4px}
+#image-gallery-modal img {max-width:900px;max-height:550px; padding:0px 20px 10px 20px;position:relative;left:120px;}
+#selected-image-header {padding:10px 10px 0 10px;text-align: center;}
+#close-modal {font-size:40px;right:15px;position:absolute}
+#close-modal:hover {cursor:pointer;color:lightgrey;}
+#modal-image-container {position:relative;min-height:650px}
+.gallery-nav {position:absolute;width:20px;background-color: rgba(0,0,0,0.3);font-size:50px;top:250px;}
+.gallery-nav:hover {cursor:pointer;color:lightgrey;}
+#image-gallery-right {right:20px;}
+#image-gallery-left {left:20px;}
